@@ -15,9 +15,9 @@ make, how to reason about the numbers, and the exact output to deliver.
 **Claude Code** (official installer — downloads this repo and registers the skills):
 
 ```bash
-npx skills add reputemap/review-skills
+npx skills add reputemap-com/review-skills
 # or only some of them:
-npx skills add reputemap/review-skills --skill reply-drafting review-triage
+npx skills add reputemap-com/review-skills --skill reply-drafting review-triage
 ```
 
 **Claude Code plugin** — the repo ships a [`.claude-plugin`](.claude-plugin/)
@@ -25,10 +25,10 @@ manifest, so it can also be installed through the plugin system; the `skills/`
 directory is picked up automatically.
 
 **Cursor** — Settings → Rules → Add Rule → **Remote Rule (GitHub)** →
-`https://github.com/reputemap/review-skills`, or copy the files locally:
+`https://github.com/reputemap-com/review-skills`, or copy the files locally:
 
 ```bash
-git clone https://github.com/reputemap/review-skills.git
+git clone https://github.com/reputemap-com/review-skills.git
 cp -r review-skills/skills/* .cursor/skills/
 ```
 
@@ -39,7 +39,7 @@ cp -r review-skills/skills/* .cursor/skills/
 ## Connect the data
 
 The skills call the hosted ReputeMap MCP server — set it up once
-([full guide](https://github.com/reputemap/mcp)):
+([full guide](https://github.com/reputemap-com/mcp)):
 
 ```bash
 claude mcp add --transport http reputemap https://api.reputemap.com/mcp \
@@ -67,8 +67,8 @@ asks only** (everyone gets asked, no rating gates, no incentives — FTC).
 ## Links
 
 - 🌐 [reputemap.com](https://reputemap.com) — Google review management for agencies & local businesses
-- 🤖 [reputemap/mcp](https://github.com/reputemap/mcp) — the MCP server (hosted endpoint + npm bridge)
-- 💡 [reputemap/examples](https://github.com/reputemap/examples) — API scripts & recipes
+- 🤖 [reputemap-com/mcp](https://github.com/reputemap-com/mcp) — the MCP server (hosted endpoint + npm bridge)
+- 💡 [reputemap-com/examples](https://github.com/reputemap-com/examples) — API scripts & recipes
 - 💼 [LinkedIn](https://www.linkedin.com/company/reputemap)
 
 MIT — see [LICENSE](LICENSE).

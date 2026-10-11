@@ -4,7 +4,7 @@
   "description": "Google review management skills for ReputeMap — inbox triage, reply drafting, negative-review response, client reports, honest review requests, reputation audits.",
   "author": { "name": "ReputeMap", "email": "yaro@reputemap.com", "url": "https://reputemap.com" },
   "homepage": "https://reputemap.com/docs/mcp",
-  "repository": "https://github.com/reputemap/review-skills",
+  "repository": "https://github.com/reputemap-com/review-skills",
   "license": "MIT",
   "keywords": ["google-reviews", "review-management", "mcp", "reputation", "local-seo"]
 }
